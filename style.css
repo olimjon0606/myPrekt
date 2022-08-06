@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+}
+.contener{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* **************NAVBAR************** */
+.imgbanner{
+    width: 70%;
+    height: 150px;
+}
+nav{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(234, 210, 255);
+}
+nav img{
+    width: 120px;
+    margin-left: 30px;
+}
+nav p{
+    text-align: center;
+    font-size: 13px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav_uch_birlashma_dev{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+
+}
+.nav_ichki_dev1{
+    display: flex;
+    justify-content: center;
+ 
+}
+.yashirin{
+    width: 95%;
+    /* border: 1px solid red; */
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.yashirin a{
+    width: 16%;
+    text-align: center;
+    padding: 5px;
+    transition: .2s linear;
+    font-size: 14px;
+    border-radius: 7px;
+    
+
+}
+.yashirin a:hover{
+    background-color: aqua;
+
+}
+.active1{
+    background-color: aqua;
+}
+.nav_ichki_dev2{
+    margin-top: 5px;
+}
+.nav_ichki_dev2 a{
+    width: 9.636%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* **************NAVBAR tugadi************** */
+
+.umumiy_main{
+   display: flex;
+   /* align-items: center; */
+   justify-content: space-around;
+}
+main b{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+ b{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+ b img{
+    margin-left: 55px;
+    margin-bottom: 5px;
+    width: 60px;
+}
+
+.span{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 15px;
+   margin-bottom: 15px;
+   /* margin-left: -30px; */
+}
+/* .b_img2{
+    margin-left: 55px;
+    margin-bottom: 5px;
+    width: 60px;
+} */
+
+.main_asos{
+    width: 65%;
+}
+.main_ichi{
+    width: 100%;
+    display: flex; 
+}
+.main_h2:hover{
+ color: blue;
+transition: .2s linear;
+}
+.main_box{
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+.main_ichi1{
+  width: 45%; 
+}
+.main_ichi1 span{
+   margin:10px ;
+}
+.main_ichi1 h2{
+    margin:10px ;
+ }
+ .main_ichi1 p{
+    margin:10px ;
+    font-size: 14px;
+ }
+.main_ichi_img{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.main_ichi_img1{
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+main img{
+    width: 50px;
+}
+.b2{
+    width: 40px;
+}
+.main_yoni{
+    width: 300px;
+    
+    
+    /* border: 1px solid red; */
+}
+.data{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.data:hover{
+    border: 1px solid blue;
+    transition: .3s linear;
+}
+.data:hover p{
+    color: blue;
+    transition: 1s linear;
+}
+.data p{
+    font-weight: 600;
+    font-size: 14px;
+}
+.kun_habarlari{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    
+
+}
+.kun_h_box:hover h5{
+      color: blue;
+}
+.kun_h_box{
+    transition: .3s linear;
+    width: 45%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 5px;
+
+}
+.kun_h_box:hover{
+    border-bottom:2px solid black ;
+}
+.kun_h_box img{
+    width: 50%;
+    padding-right: 9px;
+}
+.kun_h_box p{
+    font-size: 12px;
+}
+.jahon_habarlari{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.j_h_1{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+   
+}
+.j_h_1 img{
+    width: 45%;
+    margin-right: 20px;
+    margin-bottom: 10px
+}
+.bagraunt{
+    width: 90%;
+    height: 200px;
+    background: url(Images/2.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bagraunt button{
+    width: 250px;
+    height: 55px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(189, 189, 189);
+    font-weight: 700;
+    font-size: 16px;
+    transition: .4s linear;
+}
+.bagraunt button:hover{
+    box-shadow: inset 250px 0 0 0 red;
+    color: white;
+}
+.active{
+    box-shadow: inset 50px 0 0 0 red;
+}
+.vedio_habar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    
+    /* margin-left: 5%; */
+}
+.tepa_vedio{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gainsboro;
+
+
+    
+}
+/* .ung{
+    margin-left:10px ;
+}
+.chap{
+    margin-right: 10px;
+} */
+.ung_vedio{
+    width: 51%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.ung_tepa_ps{
+    width: 93%;
+    height: 300px;
+    /* border: 1px solid red; */
+    /* margin: 20px 0; */
+    /* margin: 10px; */
+    overflow: hidden;
+    position: relative;
+    /* transition: .4s linear; */
+    /* background-color: rgba(0, 0, 0,125); */
+    
+}
+.ung_tepa_ps i{
+    font-size: 50px;
+    color: rgb(93, 44, 255);
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.ung_tepa_ps p{
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.ung_tepa_ps img{
+    width: 100%;
+    height: 300px;
+    transition: .4s linear;
+    
+}
+.ung_tepa_ps:hover img{
+  transform: scale(1.1);
+ 
+}
+.ung_urta{
+    position: relative;
+    width: 45%;
+    height: 150px;
+    margin: 20px 10px ;
+    overflow: hidden;
+}
+.ung_urta i{
+    font-size: 30px;
+    color: rgb(93, 44, 255);
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.ung_urta img{
+    width: 100%;
+    height: 150px;
+    transition: .4s linear;
+}
+.ung_urta:hover img{
+    transform: scale(1.1);
+   
+}
+.vs{
+    margin-top: 20px;
+}
+.vs2{
+    margin-bottom: 20px;
+}
+.tegi_vedio{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: gainsboro;
+}
+.tegi_v_box{
+    width: 21%;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    position: relative;
+}
+i{
+    transition: .4s linear;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+.tegi_v_box i{
+    font-size: 25px;
+    color: rgb(93, 44, 255);
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+i:hover{
+    transform: scale(1.2);
+   
+}
+.tegi_v_box img{
+    width: 100%;
+    height: 150px;
+    transition: .4s linear;
+}
+.tegi_v_box:hover img{
+    transform: scale(1.1);
+    
+}
+
+.sport_sohasi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sport_sohasi2{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sport_sohasi2 .kun_h_box{
+    width: 30%;
+}
+
+.maqolalar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.maqolalarI{
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.maqolalarD{
+    width: 33%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction:column ;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.maqolalarD img{
+    width: 100%;
+    height: 250px;
+    transition: .4s linear;
+}
+.maqolalar p{
+    font-size: 14px;
+}
+.maqolalarD:hover img{
+    
+    transform:scale(1.5) rotateZ(-15deg) ;
+}
+.maqolalarD:hover h4{
+    transition: .4s linear;
+    color: blue;
+   
+}
+.maqolalarD h4{
+    padding: 10px 0;
+}
+
+.mimg{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.sungi_h{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.sungi_h_i{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.s_box{
+    width:  25%;
+    /* border: 1px solid red; */
+    margin: 20px 20px;
+    transition: .4s linear;
+    background-color: rgb(221, 251, 254);
+}
+span i{
+    color: black;
+    background-color:rgb(221, 251, 254) ;
+    border: rgb(221, 251, 254);
+}
+.s_box span{
+    color: rgb(98, 43, 226);
+    padding: 15px;
+}
+.s_box h3{
+    padding: 15px;
+}
+.s_box p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+
+}
+.s_box button{
+    margin-left: 15px;
+    margin-bottom: 30px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    transition: .4s linear;
+}
+.s_box button:hover{
+    background-color: rgb(150, 80, 215);
+}
+.s_box:hover{
+    transform: translatey(-10px);
+}
+.s_box div{
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+.s_box img{
+    width: 100%;
+    height: 200px;
+    transition: .4s linear;
+}
+.s_box:hover img{
+    transform: scale(1.2) ;
+}
+.rasm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.rs{
+    width: 90%;
+    height: 160px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **************Footer**************** */
+
+
+footer{
+    width: 100%;
+    height: 32vh;
+    /* border: 1px solid red; */
+}
+.footer_tepa{
+    width: 100%;
+    height: 7vh;
+    background-color:rgb(34, 34, 250);
+    display: flex;
+    align-items: center;
+}
+.footer_tepa a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    
+}
+.footer_tagi{
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(2, 2, 184);
+    
+}
+.footer_tagi
+p{
+    margin-left: 150px;
+    width: 73%;
+    color: white;
+    font-size: 14px;
+    line-height: 25px;
+    padding-top: 15px;
+}
+.a_footer{
+    margin-left: 150px;
+}
+
+
+
+
+
+/* **************Footer tugadi**************** */
